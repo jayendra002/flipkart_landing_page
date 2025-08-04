@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white; 
+  padding: 10px 20px;
+  color: white;
+}
+
+
+.logo p {
+  margin-top: -5px;
+  font-size: 10px;
+  color: lightgray; 
+}
+
+
+.search {
+  width: 40%;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right .item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.right img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+ 
+}
+
+
+.items > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  margin: 10px;
+  
+}
+
+.items img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 6px;
+cursor: pointer;
+}
+
+.items h6 {
+  font-size: 12px;
+  text-align: center;
+  color: black;
+}
+
+    .banner img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  padding: 20px 10px;
+}
+.deal-items {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.brand-directory {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  line-height: 1.6;
+}
+
+.brand-directory h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.directory-section {
+  margin-bottom: 20px;
+}
+
+.directory-section strong {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.directory-section span {
+  color: blue; 
+  cursor: pointer;
+}
+
+.directory-section span:hover {
+  text-decoration: underline;
+}
+.content{
+    font-family: Arial, sans-serif;
+    
+}
+.heading span{
+  color: black;
+}
+.deal-items img{
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #212121;
+  color: white;
+  padding: 40px 60px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column h4 {
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 6px 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links span {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.footer-links i {
+  color: yellow;
+  margin-right: 5px;
+}
+
+.payments img {
+  height: 28px;
+  margin-right: 10px;
+}
+
+a {
+  color: #1990ea;
+}
